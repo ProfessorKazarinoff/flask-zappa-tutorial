@@ -2,7 +2,7 @@
 
 An example of using Python, Flask and Zappa to deploy as very simple serverless web app on aws lambda
 
-follows Pretty Printed YouTube Video: https://youtu.be/Vl5wroVmSuk
+Follows Pretty Printed YouTube Video: https://youtu.be/Vl5wroVmSuk
 
 ## To run
 
@@ -55,4 +55,8 @@ zappa deploy dev
 zappa update dev
 ```
 
+### Delete the app
 
+```
+zappa undeploy dev
+```
